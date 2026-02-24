@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npx vite build",
+        "distDir": "dist/public"
+      }
+    },
+    {
+      "src": "api/menu-items/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/cart/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/menu-items",
+      "dest": "/api/menu-items/index.js"
+    },
+    {
+      "src": "/api/cart",
+      "dest": "/api/cart/index.js"
+    },
+    {
+      "src": "/Welcome.mp3",
+      "dest": "/Welcome.mp3",
+      "headers": {
+        "Cache-Control": "public, max-age=86400",
+        "Content-Type": "audio/mpeg",
+        "Access-Control-Allow-Origin": "*",
+        "Accept-Ranges": "bytes"
+      }
+    },
+    {
+      "src": "/vedio/(.*)",
+      "dest": "/vedio/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=86400",
+        "Content-Type": "video/mp4",
+        "Access-Control-Allow-Origin": "*",
+        "Accept-Ranges": "bytes"
+      }
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=86400",
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
+      "src": "/background.png",
+      "dest": "/background.png",
+      "headers": {
+        "Cache-Control": "public, max-age=86400",
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "image/png"
+      }
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

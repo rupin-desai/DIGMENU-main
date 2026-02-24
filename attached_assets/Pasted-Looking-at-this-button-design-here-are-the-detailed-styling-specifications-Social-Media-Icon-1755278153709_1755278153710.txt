@@ -1,0 +1,50 @@
+Looking at this button design, here are the detailed styling specifications:
+
+## Social Media Icons (Top Row)
+- **Layout**: Three rounded square icons in a horizontal row
+- **Background**: Bright orange (#FF6B35 or similar)
+- **Shape**: Rounded rectangles with corner radius of approximately 12-15px
+- **Size**: Approximately 60-70px square each
+- **Spacing**: Even horizontal spacing between icons (roughly 20-30px gaps)
+- **Icons**: White Instagram camera, Facebook "f", and YouTube play button
+- **Icon size**: Icons fill about 60-70% of each container
+
+## Main CTA Button
+- **Shape**: Pill/stadium shape (fully rounded ends)
+- **Background**: White/off-white (#FFFFFF or #FEFEFE)
+- **Border**: 3-4px solid orange stroke matching the icon color
+- **Dimensions**: Approximately 600px wide × 80px tall
+- **Shadow**: Subtle drop shadow (likely 0 2px 8px rgba(0,0,0,0.1))
+
+### Button Text Styling
+- **Font**: DM Sans (as requested)
+- **Weight**: Bold (700)
+- **Size**: Approximately 32-36px
+- **Color**: Orange (#FF6B35) matching the border and icons
+- **Text**: "EXPLORE OUR MENU" in all caps
+- **Letter spacing**: Slightly increased (0.5-1px)
+- **Icon**: Fork and knife/plate icon on the left side in matching orange
+
+## Rating Section
+### Header Text
+- **Font**: DM Sans
+- **Text**: "Click to Rate us on Google"
+- **Size**: Approximately 42-48px
+- **Weight**: Regular to Medium (400-500)
+- **Color**: Orange (#FF6B35)
+- **Alignment**: Center
+
+### Star Rating
+- **Stars**: 5 filled stars in a row
+- **Color**: Orange (#FF6B35) matching the theme
+- **Size**: Approximately 50-60px each
+- **Style**: Solid filled stars
+- **Spacing**: Minimal gaps between stars (2-3px)
+
+## Overall Layout
+- **Background**: Light cream/off-white
+- **Alignment**: All elements center-aligned
+- **Vertical spacing**: Generous spacing between each section (40-60px)
+- **Color scheme**: Consistent orange (#FF6B35) and white/cream palette throughout
+
+The design uses a cohesive orange and white color scheme with DM Sans typography, creating a warm, inviting restaurant/food service aesthetic with clear call-to-action hierarchy.

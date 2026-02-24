@@ -1,0 +1,33 @@
+(index):15 <link rel=preload> uses an unsupported `as` value
+index-BzOb8f5L.js:138 Audio setup complete, waiting for user interaction...
+index-BzOb8f5L.js:138 Video loading started
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
+index-BzOb8f5L.js:138 Audio loaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 Video data loaded
+index-BzOb8f5L.js:138 Video can play
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
+index-BzOb8f5L.js:138 Interaction detected: touchstart
+index-BzOb8f5L.js:138 Audio play failed: NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD
+d @ index-BzOb8f5L.js:138
+index-BzOb8f5L.js:138 Audio source failed: /Welcome.mp3 Event {isTrusted: true, type: 'error', target: audio, currentTarget: audio, eventPhase: 2, …}
+x @ index-BzOb8f5L.js:138
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
+index-BzOb8f5L.js:138 Audio loaded successfully from: ./Welcome.mp3
+index-BzOb8f5L.js:138 Audio setup complete, waiting for user interaction...
+index-BzOb8f5L.js:138 Interaction detected: click
+index-BzOb8f5L.js:138 Audio not ready yet
+index-BzOb8f5L.js:138 Video loading started
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
+index-BzOb8f5L.js:138 Audio loaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 Video data loaded
+index-BzOb8f5L.js:138 Video can play
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
+index-BzOb8f5L.js:138 Interaction detected: touchstart
+index-BzOb8f5L.js:138 Welcome audio successfully started playing
+index-BzOb8f5L.js:138 audio preloaded successfully from: /Welcome.mp3
+index-BzOb8f5L.js:138 video preloaded successfully from: /vedio/Black Elegant Wedding Menu.mp4
